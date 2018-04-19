@@ -13,6 +13,17 @@
 		18CCFD1F2088A8AE00EAAF1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CCFD1E2088A8AE00EAAF1C /* Assets.xcassets */; };
 		18CCFD222088A8AE00EAAF1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CCFD202088A8AE00EAAF1C /* LaunchScreen.storyboard */; };
 		18CCFD252088A8AE00EAAF1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD242088A8AE00EAAF1C /* main.m */; };
+		18CCFD332088A9CB00EAAF1C /* YFGoods_TCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD2E2088A9CB00EAAF1C /* YFGoods_TCell3.m */; };
+		18CCFD342088A9CB00EAAF1C /* YFStore_header.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD302088A9CB00EAAF1C /* YFStore_header.m */; };
+		18CCFD352088A9CB00EAAF1C /* YFStore_SectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD322088A9CB00EAAF1C /* YFStore_SectionView.m */; };
+		18CCFD412088AA2300EAAF1C /* YFCompanyStoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD392088AA2300EAAF1C /* YFCompanyStoreVC.m */; };
+		18CCFD422088AA2300EAAF1C /* YFCompany_Dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD3A2088AA2300EAAF1C /* YFCompany_Dynamic.m */; };
+		18CCFD432088AA2300EAAF1C /* YFCompany_Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD3B2088AA2300EAAF1C /* YFCompany_Content.m */; };
+		18CCFD442088AA2300EAAF1C /* YFCompany_AllGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD3C2088AA2300EAAF1C /* YFCompany_AllGoods.m */; };
+		18CCFD452088AA2300EAAF1C /* YFCompany_Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD402088AA2300EAAF1C /* YFCompany_Home.m */; };
+		18CCFD482088AB4F00EAAF1C /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD472088AB4F00EAAF1C /* UIView+Category.m */; };
+		18CCFD4B2088AB9900EAAF1C /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD492088AB9800EAAF1C /* UIViewController+Category.m */; };
+		18CCFD4E2088AC3D00EAAF1C /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCFD4C2088AC3D00EAAF1C /* UILabel+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,29 @@
 		18CCFD212088A8AE00EAAF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CCFD232088A8AE00EAAF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CCFD242088A8AE00EAAF1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CCFD2B2088A92700EAAF1C /* Config.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.pch; sourceTree = "<group>"; };
+		18CCFD2D2088A9CB00EAAF1C /* YFGoods_TCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFGoods_TCell3.h; sourceTree = "<group>"; };
+		18CCFD2E2088A9CB00EAAF1C /* YFGoods_TCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFGoods_TCell3.m; sourceTree = "<group>"; };
+		18CCFD2F2088A9CB00EAAF1C /* YFStore_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFStore_header.h; sourceTree = "<group>"; };
+		18CCFD302088A9CB00EAAF1C /* YFStore_header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFStore_header.m; sourceTree = "<group>"; };
+		18CCFD312088A9CB00EAAF1C /* YFStore_SectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFStore_SectionView.h; sourceTree = "<group>"; };
+		18CCFD322088A9CB00EAAF1C /* YFStore_SectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFStore_SectionView.m; sourceTree = "<group>"; };
+		18CCFD372088AA2200EAAF1C /* YFCompany_AllGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCompany_AllGoods.h; sourceTree = "<group>"; };
+		18CCFD382088AA2200EAAF1C /* YFCompany_Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCompany_Content.h; sourceTree = "<group>"; };
+		18CCFD392088AA2300EAAF1C /* YFCompanyStoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCompanyStoreVC.m; sourceTree = "<group>"; };
+		18CCFD3A2088AA2300EAAF1C /* YFCompany_Dynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCompany_Dynamic.m; sourceTree = "<group>"; };
+		18CCFD3B2088AA2300EAAF1C /* YFCompany_Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCompany_Content.m; sourceTree = "<group>"; };
+		18CCFD3C2088AA2300EAAF1C /* YFCompany_AllGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCompany_AllGoods.m; sourceTree = "<group>"; };
+		18CCFD3D2088AA2300EAAF1C /* YFCompany_Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCompany_Home.h; sourceTree = "<group>"; };
+		18CCFD3E2088AA2300EAAF1C /* YFCompany_Dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCompany_Dynamic.h; sourceTree = "<group>"; };
+		18CCFD3F2088AA2300EAAF1C /* YFCompanyStoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCompanyStoreVC.h; sourceTree = "<group>"; };
+		18CCFD402088AA2300EAAF1C /* YFCompany_Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCompany_Home.m; sourceTree = "<group>"; };
+		18CCFD462088AB4F00EAAF1C /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		18CCFD472088AB4F00EAAF1C /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		18CCFD492088AB9800EAAF1C /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		18CCFD4A2088AB9800EAAF1C /* UIViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		18CCFD4C2088AC3D00EAAF1C /* UILabel+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
+		18CCFD4D2088AC3D00EAAF1C /* UILabel+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +96,52 @@
 				18CCFD162088A8AE00EAAF1C /* AppDelegate.m */,
 				18CCFD182088A8AE00EAAF1C /* ViewController.h */,
 				18CCFD192088A8AE00EAAF1C /* ViewController.m */,
+				18CCFD362088AA0400EAAF1C /* VC */,
+				18CCFD2C2088A9CB00EAAF1C /* 企业店铺 */,
 				18CCFD1B2088A8AE00EAAF1C /* Main.storyboard */,
+				18CCFD2B2088A92700EAAF1C /* Config.pch */,
+				18CCFD4A2088AB9800EAAF1C /* UIViewController+Category.h */,
+				18CCFD492088AB9800EAAF1C /* UIViewController+Category.m */,
+				18CCFD462088AB4F00EAAF1C /* UIView+Category.h */,
+				18CCFD472088AB4F00EAAF1C /* UIView+Category.m */,
+				18CCFD4D2088AC3D00EAAF1C /* UILabel+Category.h */,
+				18CCFD4C2088AC3D00EAAF1C /* UILabel+Category.m */,
 				18CCFD1E2088A8AE00EAAF1C /* Assets.xcassets */,
 				18CCFD202088A8AE00EAAF1C /* LaunchScreen.storyboard */,
 				18CCFD232088A8AE00EAAF1C /* Info.plist */,
 				18CCFD242088A8AE00EAAF1C /* main.m */,
 			);
 			path = YFDemo_GoodsShop;
+			sourceTree = "<group>";
+		};
+		18CCFD2C2088A9CB00EAAF1C /* 企业店铺 */ = {
+			isa = PBXGroup;
+			children = (
+				18CCFD2D2088A9CB00EAAF1C /* YFGoods_TCell3.h */,
+				18CCFD2E2088A9CB00EAAF1C /* YFGoods_TCell3.m */,
+				18CCFD2F2088A9CB00EAAF1C /* YFStore_header.h */,
+				18CCFD302088A9CB00EAAF1C /* YFStore_header.m */,
+				18CCFD312088A9CB00EAAF1C /* YFStore_SectionView.h */,
+				18CCFD322088A9CB00EAAF1C /* YFStore_SectionView.m */,
+			);
+			path = "企业店铺";
+			sourceTree = "<group>";
+		};
+		18CCFD362088AA0400EAAF1C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18CCFD3F2088AA2300EAAF1C /* YFCompanyStoreVC.h */,
+				18CCFD392088AA2300EAAF1C /* YFCompanyStoreVC.m */,
+				18CCFD3D2088AA2300EAAF1C /* YFCompany_Home.h */,
+				18CCFD402088AA2300EAAF1C /* YFCompany_Home.m */,
+				18CCFD372088AA2200EAAF1C /* YFCompany_AllGoods.h */,
+				18CCFD3C2088AA2300EAAF1C /* YFCompany_AllGoods.m */,
+				18CCFD3E2088AA2300EAAF1C /* YFCompany_Dynamic.h */,
+				18CCFD3A2088AA2300EAAF1C /* YFCompany_Dynamic.m */,
+				18CCFD382088AA2200EAAF1C /* YFCompany_Content.h */,
+				18CCFD3B2088AA2300EAAF1C /* YFCompany_Content.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +215,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CCFD422088AA2300EAAF1C /* YFCompany_Dynamic.m in Sources */,
+				18CCFD442088AA2300EAAF1C /* YFCompany_AllGoods.m in Sources */,
+				18CCFD332088A9CB00EAAF1C /* YFGoods_TCell3.m in Sources */,
 				18CCFD1A2088A8AE00EAAF1C /* ViewController.m in Sources */,
 				18CCFD252088A8AE00EAAF1C /* main.m in Sources */,
+				18CCFD412088AA2300EAAF1C /* YFCompanyStoreVC.m in Sources */,
+				18CCFD342088A9CB00EAAF1C /* YFStore_header.m in Sources */,
+				18CCFD432088AA2300EAAF1C /* YFCompany_Content.m in Sources */,
+				18CCFD452088AA2300EAAF1C /* YFCompany_Home.m in Sources */,
 				18CCFD172088A8AE00EAAF1C /* AppDelegate.m in Sources */,
+				18CCFD4B2088AB9900EAAF1C /* UIViewController+Category.m in Sources */,
+				18CCFD482088AB4F00EAAF1C /* UIView+Category.m in Sources */,
+				18CCFD4E2088AC3D00EAAF1C /* UILabel+Category.m in Sources */,
+				18CCFD352088A9CB00EAAF1C /* YFStore_SectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +364,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YFDemo_GoodsShop/Config.pch";
 				INFOPLIST_FILE = YFDemo_GoodsShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adpanshi.renzheng.YFDemo-GoodsShop";
@@ -294,6 +380,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YFDemo_GoodsShop/Config.pch";
 				INFOPLIST_FILE = YFDemo_GoodsShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adpanshi.renzheng.YFDemo-GoodsShop";
